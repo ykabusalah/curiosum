@@ -1,0 +1,44 @@
+#header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    align-items: center;
+  }
+  
+  button {
+    padding: 6px;
+  }
+  
+  button,
+  span#question {
+    color: #fff;
+  }
+  
+  button:hover {
+    cursor: pointer;
+  }
+  
+  span {
+    color: #f60057;
+    font-size: 24px;
+  }
+  
+  button {
+    margin-bottom: 16px;
+    border: 1px solid #0f161f;
+    background: transparent;
+    border-radius: 4px;
+    width: 100%;
+    text-transform: uppercase;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  .selected {
+    border: 1px solid #f60057;
+  }
+  

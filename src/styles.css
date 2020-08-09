@@ -1,0 +1,30 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  #page {
+    display: flex;
+    justify-content: center;
+    background: url(https://thumbs.gfycat.com/IgnorantDimpledHyrax-mobile.mp4);
+  }
+  
+  #container {
+    background: #1b2735;
+    width: 433px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    border-radius: 4px;
+  }
+  
+  #percentage-completion {
+    display: flex;
+    height: 10px;
+    width: 100%;
+    background: #f60057;
+    border-radius: 10px;
+    margin-bottom: 24px;
+    background: linear-gradient(to right, #f60057, #fb9dbf 30%);
+  }
+  

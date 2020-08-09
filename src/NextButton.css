@@ -1,0 +1,7 @@
+button#next {
+    border: 1px solid #fff;
+    max-width: 150px;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
