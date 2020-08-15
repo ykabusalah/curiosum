@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+html,
 body {
   font-family: "Quicksand", sans-serif;
   height: 100vh;
@@ -11,9 +12,6 @@ body {
   background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
   overflow: hidden;
   color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 h1,

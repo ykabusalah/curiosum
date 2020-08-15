@@ -1,30 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Baloo+Tamma+2&display=swap");
+
 .App {
-    font-family: sans-serif;
-    text-align: center;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app-title {
+  font-family: "Audiowide", cursive !important;
+  margin-top: 1rem;
+  text-transform: uppercase;
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 0 4px 5px rgba(60, 72, 96, 0.5);
+  color: #f0edf2;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-animation-duration: 0.1s;
+  animation-duration: 0.1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
+  text-shadow: rgb(255, 255, 255) 0px 0px 175px, rgb(255, 255, 255) 0px 0px 10px,
+    rgb(255, 255, 255) 0px 0px 1px, rgb(0, 51, 128) 0px 0px 100px,
+    rgb(0, 51, 128) 0px 0px 250px;
+}
+
+@-webkit-keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
   }
-  
-  #page {
-    display: flex;
-    justify-content: center;
-    background: url(https://thumbs.gfycat.com/IgnorantDimpledHyrax-mobile.mp4);
+
+  50% {
+    opacity: 1;
   }
-  
-  #container {
-    background: #1b2735;
-    width: 433px;
-    display: flex;
-    flex-direction: column;
-    padding: 16px;
-    border-radius: 4px;
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.5, 0.5, 0.5);
+    transform: scale3d(0.5, 0.5, 0.5);
   }
-  
-  #percentage-completion {
-    display: flex;
-    height: 10px;
-    width: 100%;
-    background: #f60057;
-    border-radius: 10px;
-    margin-bottom: 24px;
-    background: linear-gradient(to right, #f60057, #fb9dbf 30%);
+
+  50% {
+    opacity: 1;
   }
-  
+}
+
+#container {
+  margin-top: 2rem;
+  background: #1b2735;
+  width: 433px;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  border-radius: 4px;
+}
+
+#percentage-completion {
+  display: flex;
+  height: 10px;
+  width: 100%;
+  background: #f60057;
+  border-radius: 10px;
+  margin-bottom: 24px;
+  background: linear-gradient(to right, #f60057, #fb9dbf 30%);
+}

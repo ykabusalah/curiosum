@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Switch, Route, Redirect } from "react-router-dom";
+import { Switch, Route, Redirect, Link } from "react-router-dom";
 
 import rapperPersonalities from "./rapperPersonalities";
 import Questions from "./Questions";
@@ -27,7 +27,7 @@ const App = () => {
     }, {});
 
     setQualitiesStorage({ ...qualitiesStorage, ...qualities });
-  }
+  };
 
   const sortPersonalities = personalities => {
     const sortedPersonalitiesList = Object.keys(personalities).sort((a, b) => {
@@ -35,7 +35,7 @@ const App = () => {
     });
 
     return sortedPersonalitiesList;
-  }
+  };
 
   const getDominantPersonalities = personalities => {
     let dominantPersonalities = [];
@@ -46,16 +46,19 @@ const App = () => {
     );
 
     return dominantPersonalities.sort();
-  }
+  };
 
-  const getRapperWithMatchingPersonality = (rapperPersonalities, userPersona) => {
+  const getRapperWithMatchingPersonality = (
+    rapperPersonalities,
+    userPersona
+  ) => {
     for (const personality in rapperPersonalities) {
       var convertedValue = personality.split(" and ").sort();
       if (_.isEqual(convertedValue, userPersona)) {
         return rapperPersonalities[personality];
       }
     }
-  }
+  };
 
   const nextQuestion = answer => {
     matchPersonalityToAnswer(answer);
@@ -78,24 +81,27 @@ const App = () => {
   };
 
   return (
-    <div id="page">
-      <div id="container">
+    <div id='page'>
+      <Link to='/'>
+        <h1 className='app-title'>Curiosum</h1>
+      </Link>
+      <div id='container'>
         <Switch>
-          {matchingPersonality && <Redirect exact from="/" to="/result" />}
-          <Route exact path="/">
+          {matchingPersonality && <Redirect exact from='/' to='/result' />}
+          <Route exact path='/'>
             <Questions
               currentQuestion={currentQuestion}
               nextQuestion={nextQuestion}
               count={count}
             />
           </Route>
-          <Route exact path="/result">
+          <Route exact path='/result'>
             <Result rapperName={matchingPersonality} />
           </Route>
         </Switch>
       </div>
     </div>
   );
-}
+};
 
 export default App;
