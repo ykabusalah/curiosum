@@ -15,7 +15,7 @@ const rapperImages = {
     "Travis Scott": "https://snworksceo.imgix.net/dtc/adb4e6d4-b9d2-431a-9f19-8e20c9ee8e37.sized-1000x1000.jpg?w=1000",
     "Tupac": "https://cdn.britannica.com/02/162002-050-02512608/Tupac-Shakur-1993.jpg",
     "J Cole":
-        "https://images.unsplash.com/photo-1596773823658-0bd68cfdb10f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2551&q=80",
+        "https://www.biography.com/.image/t_share/MTQ3Mzg3MjY0ODg2OTA4NTk5/j_cole_photo_by_isaac_brekken_wireimage_getty_503069628.jpg",
     "Earl Sweatshirt": "https://mtv.mtvnimages.com/uri/mgid:ao:image:mtv.com:684152?height=506&width=900&format=jpg&quality=.7",
     "Frank Ocean": "https://thatgrapejuice.net/wp-content/uploads/2014/02/frank-ocean-that-grape-juice-she-is-diva-that-grape-juice-tv.jpg",
 
@@ -30,8 +30,8 @@ const rapperImages = {
     "Lil Dicky": "https://www.heyalma.com/wp-content/uploads/2020/03/lil-dicky.jpg",
     "Lil Pump": "https://townsquare.media/site/812/files/2019/07/lil-pump-miami-mansion.jpg?w=980&q=75",
     "Pop Smoke": "https://cdn.cnn.com/cnnnext/dam/assets/200219160653-03-pop-smoke-vertical-exlarge-169.jpg",
-    "Quavo": "",
-    "2 Chainz": "",
+    "Quavo": "https://a9p9n2x2.stackpathcdn.com/wp-content/blogs.dir/1/files/2020/04/3.-IMG_6165-1024x683.jpg",
+    "2 Chainz": "https://images.rapgenius.com/bgpk695h69vj2plfsy05p092e.990x990x1.jpg",
     "Lil Xan": "",
 
     "Kodak Black": "",
