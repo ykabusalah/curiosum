@@ -25,9 +25,9 @@ const rapperImages = {
     "MF Doom": "https://ukhiphopblogcouk.files.wordpress.com/2019/02/img_20190202_234413.jpg?w=570",
     "Amine": "https://static01.nyt.com/images/2017/07/30/arts/30AMINE1/30AMINE1-superJumbo.jpg",
     "Mac Miller": "https://s.france24.com/media/display/033d32aa-f9ae-11e8-b8c6-005056a964fe/w:1280/p:16x9/mac_miller-.webp",
-    "Asap Rocky": "",
+    "Asap Rocky": "https://c.ndtvimg.com/2019-07/jnkiuvl8_asaprocky650_625x300_05_July_19.jpg",
 
-    "Lil Dicky": "",
+    "Lil Dicky": "https://www.heyalma.com/wp-content/uploads/2020/03/lil-dicky.jpg",
     "Lil Pump": "",
     "Pop Smoke": "",
     "Quavo": "",
