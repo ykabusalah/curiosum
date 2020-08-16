@@ -1,8 +1,8 @@
 const rapperImages = {
     "Common": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Common_-_Ilosaarirock_2008.jpg",
     "Lil Baby": "https://www.iheartradio.ca/image/policy:1.13039497:1595416784/baby.jpg?f=default&$p$f=8f96334",
-    "Nav": "",
-    "Tory Lanez": "",
+    "Nav": "https://www.rollingstone.com/wp-content/uploads/2018/06/nav-starboy-portrait-opener-for-the-weeknd-3c82f753-e2a3-413a-9f4c-998fb3ee9839.jpg",
+    "Tory Lanez": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.revolt.tv%2F2019%2F8%2F4%2F20839274%2Ftory-lanez-charges-75-000-for-a-feature&psig=AOvVaw2r3jWSb7TGxKeCCV699ZNs&ust=1597678403854000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLi7qoCGoOsCFQAAAAAdAAAAABAD",
     "Vince Staples": "",
     "Nipsey Hussle": "",
     "Nas": "",
