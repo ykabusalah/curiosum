@@ -13,13 +13,13 @@ const rapperImages = {
     "Playboi Carti": "https://audiblwav.com/wp-content/uploads/2019/03/playboi-carti.jpg",
     "Logic": "https://www.nme.com/wp-content/uploads/2020/07/Logic-Press-Shot.jpg",
     "Travis Scott": "https://snworksceo.imgix.net/dtc/adb4e6d4-b9d2-431a-9f19-8e20c9ee8e37.sized-1000x1000.jpg?w=1000",
-    "Tupac": "",
+    "Tupac": "https://cdn.britannica.com/02/162002-050-02512608/Tupac-Shakur-1993.jpg",
     "J Cole":
         "https://images.unsplash.com/photo-1596773823658-0bd68cfdb10f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2551&q=80",
     "Earl Sweatshirt": "https://mtv.mtvnimages.com/uri/mgid:ao:image:mtv.com:684152?height=506&width=900&format=jpg&quality=.7",
     "Frank Ocean": "https://thatgrapejuice.net/wp-content/uploads/2014/02/frank-ocean-that-grape-juice-she-is-diva-that-grape-juice-tv.jpg",
 
-    "Chance the Rapper": "",
+    "Chance the Rapper": "https://m.media-amazon.com/images/M/MV5BMjI4MzgxNjExMl5BMl5BanBnXkFtZTgwMjI0MjUxNDM@._V1_.jpg",
     "Tyler the Creator": "",
     "Trippie Redd": "",
     "MF Doom": "",
