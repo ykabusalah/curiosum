@@ -28,8 +28,8 @@ const rapperImages = {
     "Asap Rocky": "https://c.ndtvimg.com/2019-07/jnkiuvl8_asaprocky650_625x300_05_July_19.jpg",
 
     "Lil Dicky": "https://www.heyalma.com/wp-content/uploads/2020/03/lil-dicky.jpg",
-    "Lil Pump": "",
-    "Pop Smoke": "",
+    "Lil Pump": "https://townsquare.media/site/812/files/2019/07/lil-pump-miami-mansion.jpg?w=980&q=75",
+    "Pop Smoke": "https://cdn.cnn.com/cnnnext/dam/assets/200219160653-03-pop-smoke-vertical-exlarge-169.jpg",
     "Quavo": "",
     "2 Chainz": "",
     "Lil Xan": "",
