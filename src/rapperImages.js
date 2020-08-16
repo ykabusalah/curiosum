@@ -20,11 +20,11 @@ const rapperImages = {
     "Frank Ocean": "https://thatgrapejuice.net/wp-content/uploads/2014/02/frank-ocean-that-grape-juice-she-is-diva-that-grape-juice-tv.jpg",
 
     "Chance the Rapper": "https://m.media-amazon.com/images/M/MV5BMjI4MzgxNjExMl5BMl5BanBnXkFtZTgwMjI0MjUxNDM@._V1_.jpg",
-    "Tyler the Creator": "",
-    "Trippie Redd": "",
-    "MF Doom": "",
-    "Amine": "",
-    "Mac Miller": "",
+    "Tyler the Creator": "https://dynaimage.cdn.cnn.com/cnn/c_fill,g_auto,w_1200,h_675,ar_16:9/https%3A%2F%2Fcdn.cnn.com%2Fcnnnext%2Fdam%2Fassets%2F200127063956-tyler-the-creator-grammy.jpg",
+    "Trippie Redd": "https://www.rollingstone.com/wp-content/uploads/2019/12/trippie-redd-charts-2.jpg",
+    "MF Doom": "https://ukhiphopblogcouk.files.wordpress.com/2019/02/img_20190202_234413.jpg?w=570",
+    "Amine": "https://static01.nyt.com/images/2017/07/30/arts/30AMINE1/30AMINE1-superJumbo.jpg",
+    "Mac Miller": "https://s.france24.com/media/display/033d32aa-f9ae-11e8-b8c6-005056a964fe/w:1280/p:16x9/mac_miller-.webp",
     "Asap Rocky": "",
 
     "Lil Dicky": "",
