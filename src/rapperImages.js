@@ -1,5 +1,5 @@
 const rapperImages = {
-    "Common": "",
+    "Common": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Common_-_Ilosaarirock_2008.jpg",
     "Lil Baby": "",
     "Nav": "",
     "Tory Lanez": "",
