@@ -5,7 +5,7 @@ const rapperImages = {
     "Tory Lanez": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.revolt.tv%2F2019%2F8%2F4%2F20839274%2Ftory-lanez-charges-75-000-for-a-feature&psig=AOvVaw2r3jWSb7TGxKeCCV699ZNs&ust=1597678403854000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLi7qoCGoOsCFQAAAAAdAAAAABAD",
     "Vince Staples": "https://www.rapbasement.com/wp-content/uploads/2015/12/vince-staples-meredith-truax.jpg",
     "Nipsey Hussle": "https://wehco.media.clients.ellingtoncms.com/img/photos/2019/04/01/resized_250499-4a-nipsey-hussle-0402_19-26163_t800.jpg?90232451fbcadccc64a17de7521d859a8f88077d",
-    "Nas": "",
+    "Nas": "https://www.rap-up.com/app/uploads/2020/08/nas-glasses.jpg",
     "Gunna": "",
     "Jaden Smith": "",
 
