@@ -40,7 +40,7 @@ const rapperImages = {
     "Nicki Minaj": "https://thesource.com/wp-content/uploads/2018/04/Nicki-Minaj.jpg",
     "Lil Uzi Vert": "https://www.rap-trends.com/wp-content/uploads/2017/03/lil-uzi-vert.jpg",
 
-    "DaBaby": "",
+    "DaBaby": "https://media.pitchfork.com/photos/5c7d4c1b4101df3df85c41e5/1:1/w_320/Dababy_BabyOnBaby.jpg",
     "Kanye West": "",
     "Future": "",
     "Drake": "",
