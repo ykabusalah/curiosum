@@ -16,7 +16,7 @@ const rapperImages = {
     "Tupac": "",
     "J Cole":
         "https://images.unsplash.com/photo-1596773823658-0bd68cfdb10f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2551&q=80",
-    "Earl Sweatshirt": "",
+    "Earl Sweatshirt": "https://mtv.mtvnimages.com/uri/mgid:ao:image:mtv.com:684152?height=506&width=900&format=jpg&quality=.7",
     "Frank Ocean": "",
 
     "Chance the Rapper": "",
