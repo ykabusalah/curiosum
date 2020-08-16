@@ -32,9 +32,9 @@ const rapperImages = {
     "Pop Smoke": "https://cdn.cnn.com/cnnnext/dam/assets/200219160653-03-pop-smoke-vertical-exlarge-169.jpg",
     "Quavo": "https://a9p9n2x2.stackpathcdn.com/wp-content/blogs.dir/1/files/2020/04/3.-IMG_6165-1024x683.jpg",
     "2 Chainz": "https://images.rapgenius.com/bgpk695h69vj2plfsy05p092e.990x990x1.jpg",
-    "Lil Xan": "",
+    "Lil Xan": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F20%2F2020%2F04%2F21%2Flil-xan.jpg&q=85",
 
-    "Kodak Black": "",
+    "Kodak Black": "https://i.guim.co.uk/img/media/64fbea02f96bf191d477a71131ae6d7f716cd07b/0_22_3000_1800/master/3000.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=fb12c077b9c10f835405cd3cb71335eb",
     "Big L": "",
     "Meg the Stallion": "",
     "Nicki Minaj": "",
