@@ -41,8 +41,8 @@ const rapperImages = {
     "Lil Uzi Vert": "https://www.rap-trends.com/wp-content/uploads/2017/03/lil-uzi-vert.jpg",
 
     "DaBaby": "https://media.pitchfork.com/photos/5c7d4c1b4101df3df85c41e5/1:1/w_320/Dababy_BabyOnBaby.jpg",
-    "Kanye West": "",
-    "Future": "",
+    "Kanye West": "https://assets.capitalxtra.com/2017/21/kanye-west-ralph-lauren---front-row---mercedes-benz-fashion-week-fall-2015-1495461234-hero-wide-v4-1.jpg",
+    "Future": "https://img.srgcdn.com/e//bWlPcXpLdFV6RVVsMW1vUlo5blMucG5n.jpg",
     "Drake": "",
 
     "Biggie": "",
