@@ -10,14 +10,14 @@ const rapperImages = {
     "Jaden Smith": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.rollingstone.com%2Fmusic%2Fmusic-news%2Fjaden-smith-back-on-my-shit-migos-and-bon-iver-729160%2F&psig=AOvVaw0sESFK5Wt4WU5leiuxuRju&ust=1597678611322000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOj-ieOGoOsCFQAAAAAdAAAAABAD",
 
     "Young Thug": "https://storage.googleapis.com/afs-prod/media/media:efcf89e21f1145a3bb730c87c1ba81b7/800.jpeg",
-    "Playboi Carti": "",
+    "Playboi Carti": "https://audiblwav.com/wp-content/uploads/2019/03/playboi-carti.jpg",
     "Logic": "",
     "Travis Scott": "",
     "Tupac": "",
     "J Cole":
         "https://images.unsplash.com/photo-1596773823658-0bd68cfdb10f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2551&q=80",
     "Earl Sweatshirt": "https://mtv.mtvnimages.com/uri/mgid:ao:image:mtv.com:684152?height=506&width=900&format=jpg&quality=.7",
-    "Frank Ocean": "",
+    "Frank Ocean": "https://thatgrapejuice.net/wp-content/uploads/2014/02/frank-ocean-that-grape-juice-she-is-diva-that-grape-juice-tv.jpg",
 
     "Chance the Rapper": "",
     "Tyler the Creator": "",
