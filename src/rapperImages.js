@@ -11,8 +11,8 @@ const rapperImages = {
 
     "Young Thug": "https://storage.googleapis.com/afs-prod/media/media:efcf89e21f1145a3bb730c87c1ba81b7/800.jpeg",
     "Playboi Carti": "https://audiblwav.com/wp-content/uploads/2019/03/playboi-carti.jpg",
-    "Logic": "",
-    "Travis Scott": "",
+    "Logic": "https://www.nme.com/wp-content/uploads/2020/07/Logic-Press-Shot.jpg",
+    "Travis Scott": "https://snworksceo.imgix.net/dtc/adb4e6d4-b9d2-431a-9f19-8e20c9ee8e37.sized-1000x1000.jpg?w=1000",
     "Tupac": "",
     "J Cole":
         "https://images.unsplash.com/photo-1596773823658-0bd68cfdb10f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2551&q=80",
