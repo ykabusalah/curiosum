@@ -1,6 +1,6 @@
 const rapperImages = {
     "Common": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Common_-_Ilosaarirock_2008.jpg",
-    "Lil Baby": "",
+    "Lil Baby": "https://www.iheartradio.ca/image/policy:1.13039497:1595416784/baby.jpg?f=default&$p$f=8f96334",
     "Nav": "",
     "Tory Lanez": "",
     "Vince Staples": "",
