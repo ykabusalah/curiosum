@@ -49,8 +49,8 @@ const rapperImages = {
     "50 Cent": "https://cdn1.thr.com/sites/default/files/imagecache/landscape_928x523/2017/02/50_cent.jpg",
     "Lil Wayne": "https://www.rap-up.com/app/uploads/2020/01/lil-wayne-atl.jpg",
 
-    "Kendrick Lamar": "",
-    "Ab-Soul": ""
+    "Kendrick Lamar": "https://s2.reutersmedia.net/resources/r/?m=02&d=20180416&t=2&i=1252208900&r=LYNXMPEE3F1SE",
+    "Ab-Soul": "https://vanyaland.com/wp-content/uploads/2017/05/AbSoul.jpg"
 };
 
 export default rapperImages;
