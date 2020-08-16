@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Switch, Route, Redirect, Link } from "react-router-dom";
+import { Switch, Route, Redirect, Link, BrowserRouter as Router } from "react-router-dom";
 
 import rapperPersonalities from "./rapperPersonalities";
 import Questions from "./Questions";
@@ -12,7 +12,7 @@ import _ from "lodash";
 const App = () => {
   const [count, setCount] = useState(1);
   const [qualitiesStorage, setQualitiesStorage] = useState({});
-  const currentQuestion = puzzleQuestions[count - 1];
+  const [currentQuestion, setCurrentQuestion] = useState(puzzleQuestions[0])
   const [matchingPersonality, setMatchingPersonality] = useState("");
 
   const matchPersonalityToAnswer = personalities => {
@@ -65,7 +65,7 @@ const App = () => {
 
     count === puzzleQuestions.length
       ? getDominantPersonalities(qualitiesStorage)
-      : setCount(count + 1);
+      : setNext();
 
     const dominantQualities = getDominantPersonalities(qualitiesStorage);
 
@@ -80,26 +80,46 @@ const App = () => {
     }
   };
 
+  const setNext = () => {
+    setCount(count + 1);
+    setCurrentQuestion(puzzleQuestions[count]);
+  }
+
+  const initQuestion = () => {
+    setCurrentQuestion(puzzleQuestions[0])
+    setCount(1)
+    setMatchingPersonality("")
+  }
+
+  const handlePopup = () => {
+    let text = "This will take you back to the beginning of the quiz.\nAre you sure you want to continue with this action?"
+    if (window.confirm(text)) {
+      initQuestion()
+    }
+  }
+
   return (
     <div id='page'>
-      <Link to='/'>
-        <h1 className='app-title'>Curiosum</h1>
-      </Link>
-      <div id='container'>
-        <Switch>
-          {matchingPersonality && <Redirect exact from='/' to='/result' />}
-          <Route exact path='/'>
-            <Questions
-              currentQuestion={currentQuestion}
-              nextQuestion={nextQuestion}
-              count={count}
-            />
-          </Route>
-          <Route exact path='/result'>
-            <Result rapperName={matchingPersonality} />
-          </Route>
-        </Switch>
-      </div>
+      <Router>
+        <Link to="/">
+          <h1 className='app-title' onClick={handlePopup}>Curiosum</h1>
+        </Link>
+        <div id='container'>
+          <Switch>
+            {matchingPersonality && <Redirect exact from='/' to='/result' />}
+            <Route exact path='/'>
+              <Questions
+                currentQuestion={currentQuestion}
+                nextQuestion={nextQuestion}
+                count={count}
+              />
+            </Route>
+            <Route exact path='/result'>
+              <Result rapperName={matchingPersonality} />
+            </Route>
+          </Switch>
+        </div>
+      </Router>
     </div>
   );
 };
