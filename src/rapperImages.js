@@ -9,7 +9,7 @@ const rapperImages = {
     "Gunna": "https://www.interviewmagazine.com/wp-content/uploads/2019/02/IMG_3098-2.jpg",
     "Jaden Smith": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.rollingstone.com%2Fmusic%2Fmusic-news%2Fjaden-smith-back-on-my-shit-migos-and-bon-iver-729160%2F&psig=AOvVaw0sESFK5Wt4WU5leiuxuRju&ust=1597678611322000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOj-ieOGoOsCFQAAAAAdAAAAABAD",
 
-    "Young Thug": "",
+    "Young Thug": "https://storage.googleapis.com/afs-prod/media/media:efcf89e21f1145a3bb730c87c1ba81b7/800.jpeg",
     "Playboi Carti": "",
     "Logic": "",
     "Travis Scott": "",
