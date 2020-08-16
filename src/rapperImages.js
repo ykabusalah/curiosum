@@ -43,11 +43,11 @@ const rapperImages = {
     "DaBaby": "https://media.pitchfork.com/photos/5c7d4c1b4101df3df85c41e5/1:1/w_320/Dababy_BabyOnBaby.jpg",
     "Kanye West": "https://assets.capitalxtra.com/2017/21/kanye-west-ralph-lauren---front-row---mercedes-benz-fashion-week-fall-2015-1495461234-hero-wide-v4-1.jpg",
     "Future": "https://img.srgcdn.com/e//bWlPcXpLdFV6RVVsMW1vUlo5blMucG5n.jpg",
-    "Drake": "",
+    "Drake": "https://i.pinimg.com/originals/b7/b2/67/b7b26734f61ed6e46c7bdee7a72179af.jpg",
 
-    "Biggie": "",
-    "50 Cent": "",
-    "Lil Wayne": "",
+    "Biggie": "https://www.biography.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTY0ODUwMTMwODA4MjE4NzE5/rapper-notorious-big-aka-biggie-smalls-aka-chris-wallace-rolls-a-cigar-outside-his-mothers-house-in-brooklyn-photo-by-clarence-davis_ny-daily-news-archive-via-getty-images.jpg",
+    "50 Cent": "https://cdn1.thr.com/sites/default/files/imagecache/landscape_928x523/2017/02/50_cent.jpg",
+    "Lil Wayne": "https://www.rap-up.com/app/uploads/2020/01/lil-wayne-atl.jpg",
 
     "Kendrick Lamar": "",
     "Ab-Soul": ""
