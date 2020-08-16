@@ -6,8 +6,8 @@ const rapperImages = {
     "Vince Staples": "https://www.rapbasement.com/wp-content/uploads/2015/12/vince-staples-meredith-truax.jpg",
     "Nipsey Hussle": "https://wehco.media.clients.ellingtoncms.com/img/photos/2019/04/01/resized_250499-4a-nipsey-hussle-0402_19-26163_t800.jpg?90232451fbcadccc64a17de7521d859a8f88077d",
     "Nas": "https://www.rap-up.com/app/uploads/2020/08/nas-glasses.jpg",
-    "Gunna": "",
-    "Jaden Smith": "",
+    "Gunna": "https://www.interviewmagazine.com/wp-content/uploads/2019/02/IMG_3098-2.jpg",
+    "Jaden Smith": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.rollingstone.com%2Fmusic%2Fmusic-news%2Fjaden-smith-back-on-my-shit-migos-and-bon-iver-729160%2F&psig=AOvVaw0sESFK5Wt4WU5leiuxuRju&ust=1597678611322000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOj-ieOGoOsCFQAAAAAdAAAAABAD",
 
     "Young Thug": "",
     "Playboi Carti": "",
@@ -49,7 +49,7 @@ const rapperImages = {
     "50 Cent": "",
     "Lil Wayne": "",
 
-    "Kendrick Lamar (cause he’s an enigma and his talent doesn’t make sense)": "",
+    "Kendrick Lamar": "",
     "Ab-Soul": ""
 };
 
