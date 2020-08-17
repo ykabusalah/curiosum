@@ -10,7 +10,7 @@ const Result = ({ rapperName }) => {
       <div id='profile-header'>
         {`Your personality is similar to ${rapperName}`}
       </div>
-      <div>
+      <div id="img-container">
         <img
           id='artiste-profile-pic'
           src={!rapperImage ? "/logo192.png" : rapperImage}
