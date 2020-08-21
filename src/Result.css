@@ -2,11 +2,13 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 
 #img-container {
   width: 250px;
   height: 250px;
+  z-index: 2;
 }
 
 img#artiste-profile-pic {
@@ -20,4 +22,102 @@ img#artiste-profile-pic {
 #profile-header {
   font-size: 24px;
   margin-bottom: 12px;
+  text-align: center;
+  z-index: 2;
+}
+
+#result {
+  z-index: 2;
+  margin-top: 30px;
+  animation: fadeIn ease 200ms;
+  -webkit-animation: fadeIn ease 200ms;
+  -moz-animation: fadeIn ease 200ms;
+  -o-animation: fadeIn ease 200ms;
+  -ms-animation: fadeIn ease 200ms;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+#text1 {
+  position: absolute;
+  top: 50%;
+  left: -10%;
+  animation: animStar 50s linear infinite;
+  z-index: -1;
+}
+
+#text2 {
+  position: absolute;
+  bottom: -50%;
+  left: 30%;
+  animation: animStar 50s linear infinite;
+  z-index: -1;
+}
+
+#text3 {
+  position: absolute;
+  top: 100%;
+  left: 100%;
+  animation: animStar 50s linear infinite;
+  z-index: -1;
+}
+
+#text4 {
+  position: absolute;
+  bottom: -200%;
+  right: -20%;
+  animation: animStar 50s linear infinite;
+  z-index: -1;
+}
+
+#text5 {
+  position: absolute;
+  bottom: -100%;
+  left: -40%;
+  animation: animStar 50s linear infinite;
+  z-index: -1;
+}
+
+#text6 {
+  position: absolute;
+  bottom: -160%;
+  left: 60%;
+  animation: animStar 50s linear infinite;
+  z-index: -1;
+}
+
+@keyframes animStar {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-1000px);
+  }
+}
+
+.title-link {
+  z-index: 1000;
 }

@@ -125,7 +125,7 @@ const questions = [
     {
         number: 6,
         question:
-            "Some random person has started a conversation with you. To be honest, you don't have a clue what this fellow is saying. How do you reply?",
+            "Some random person has started a conversation with you. To be honest, you don't have aclue what this fellow is saying. How do you reply?",
         answers: [
             {
                 id: 1,

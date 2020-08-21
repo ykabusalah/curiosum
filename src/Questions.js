@@ -16,7 +16,7 @@ const Questions = ({ nextQuestion, currentQuestion, count }) => {
     const handleButtonSelect = (key) => setSelectedButtonKey(key);
 
     return (
-        <>
+        <div id="container">
             <Line
                 percent={(count / puzzleQuestions.length) * 100}
                 strokeColor="#f60057"
@@ -63,7 +63,7 @@ const Questions = ({ nextQuestion, currentQuestion, count }) => {
                 }}
                 puzzleQuestions={puzzleQuestions}
             />
-        </>
+        </div>
     );
 }
 

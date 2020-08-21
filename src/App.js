@@ -5,6 +5,7 @@ import rapperPersonalities from "./rapperPersonalities";
 import Questions from "./Questions";
 import puzzleQuestions from "./puzzleQuestions";
 import Result from "./Result";
+import Loading from "./Loading";
 
 import "./styles.css";
 import _ from "lodash";
@@ -101,18 +102,23 @@ const App = () => {
   return (
     <div id='page'>
       <Router>
-        <Link to="/">
-          <h1 className='app-title' onClick={handlePopup}>Curiosum</h1>
-        </Link>
-        <div id='container'>
+        <div className="title-link">
+          <Link to="/">
+            <h1 className='app-title' onClick={handlePopup}>Curiosum</h1>
+          </Link>
+        </div>
+        <div>
           <Switch>
-            {matchingPersonality && <Redirect exact from='/' to='/result' />}
+            {matchingPersonality && <Redirect exact from='/' to='/loading' />}
             <Route exact path='/'>
               <Questions
                 currentQuestion={currentQuestion}
                 nextQuestion={nextQuestion}
                 count={count}
               />
+            </Route>
+            <Route exact path="/loading">
+              <Loading />
             </Route>
             <Route exact path='/result'>
               <Result rapperName={matchingPersonality} />
